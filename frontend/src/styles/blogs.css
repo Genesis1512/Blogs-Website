@@ -1,0 +1,121 @@
+.blog-list {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 4%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.blog-item {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.blog-item:hover {
+  transform: scale(1.02);
+}
+
+.blog-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.blog-image {
+  max-width: 25%;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.blog-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.4em; /* Increased font size */
+}
+
+.author {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 5px;
+  display: block;
+}
+
+p {
+  color: #ddd;
+  font-size: 0.85em;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background-color: #d9534f; /* Red background */
+  color: #fff; /* White color for the cross icon */
+  border: none;
+  border-radius: 50%; /* Circular button */
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+
+.read-more {
+  background-color: rgb(1, 88, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.no-posts
+{
+    text-align: center;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .blog-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog-image {
+    max-width: 80%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,39 @@
+/* navbar.css */
+.nav-main {
+  display: flex;
+  justify-content: space-between; /* Pushes the content to the two corners */
+  align-items: center; /* Centers the items vertically */
+   margin:2%;
+
+ 
+}
+
+.heading h1 {
+ 
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #017401, #08ae08a9); /* Green gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Hide the default color to show the gradient */
+  margin-bottom: 0;;
+}
+
+.link {
+  display: flex;
+  margin-right: 2%;
+    
+}
+
+.links {
+    background: linear-gradient(90deg, #017401, #00ff00a9); /* Gradient for the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Makes the text transparent to show the gradient */
+  text-decoration: none;
+  font-size: 1rem;
+  margin:5%;
+}
+
+.links:hover {
+  text-decoration: underline;
+}

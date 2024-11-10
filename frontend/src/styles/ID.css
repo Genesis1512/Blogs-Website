@@ -1,0 +1,54 @@
+.blog-details {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+  }
+  
+  .content-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .blog-image {
+   
+    
+    height:10%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .description {
+    width: 55%;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .author2 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .blog-image, .description {
+      width: 100%;
+    }
+  }
+  

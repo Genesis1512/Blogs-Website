@@ -1,0 +1,16 @@
+/* courousel.css */
+.bada
+{
+    background: linear-gradient(135deg, #004d00, #001a00);
+    height: 100vh;
+}
+
+.carousel {
+       width:80vw;
+       height:30vh;     /* Set a maximum width for larger screens */
+    margin:0 auto;         /* Center the element horizontally */
+    
+      /* Limit the height of the carousel */
+   
+              /* Ensure it stays above the animated background */
+}

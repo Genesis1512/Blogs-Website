@@ -1,0 +1,66 @@
+body
+{
+    margin:0;
+    background: linear-gradient(135deg, #004d00, #001a00);
+}
+.back
+{
+  
+    margin:0
+}
+.success-message {
+    color: #4CAF50; /* Green color for success message */
+    margin: 10px 0;
+    font-size: 1.1em; /* Slightly larger font */
+}
+.prod-container {
+    height: 100vh;
+  /* Same gradient as home */
+    color: aliceblue; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.prod-form {
+    max-width: 800px; /* Increased width for the form */
+    width: 100%; /* Full width */
+    background: linear-gradient(135deg, #000000, #004d00); /* Gradient background for the form */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    margin-bottom: 5px;
+    display: block; /* Block level for better layout */
+}
+
+input, textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit5 {
+    background-color: linear-gradient(135deg, #007bff, #0056b3); /* Gradient button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.submit5:hover {
+    background: linear-gradient(135deg, #0056b3, #004080); /* Darker gradient on hover */
+}
