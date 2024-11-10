@@ -1,4 +1,3 @@
-
 # Blog Full-Stack Website
 
 A full-stack blog website designed for sharing articles with an intuitive, user-friendly experience. The application includes:
